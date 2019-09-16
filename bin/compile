@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Rewrite ssh url to https
 git config --global url."https://git@github.com".insteadOf ssh://git@github.com
 
-echo "-----> Git config set 2"
+echo "-----> Rewrote Git config to use https url"
